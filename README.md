@@ -1,13 +1,13 @@
-![banner](assets/Credit_card_approval_banner.png)
+![banner](assets/credit-card-application.png)
 
 
-![Python version](https://img.shields.io/badge/Python%20version-3.10%2B-lightgrey)
-![GitHub last commit](https://img.shields.io/github/last-commit/semasuka/Credit-card-approval-prediction-classification)
-![GitHub repo size](https://img.shields.io/github/repo-size/semasuka/Credit-card-approval-prediction-classification)
+![Python version](https://img.shields.io/badge/Python%20version-3.12%2B-lightgrey)
+![GitHub last commit](https://img.shields.io/github/last-commit/AyoyimikaAjibade/credit-card-approval-prediction)
+![GitHub repo size](https://img.shields.io/github/repo-size/AyoyimikaAjibade/credit-card-approval-prediction)
 ![Type of ML](https://img.shields.io/badge/Type%20of%20ML-Binary%20Classification-red)
 ![License](https://img.shields.io/badge/License-MIT-green)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1CfV6yEsHBjFiJbTKwY72k2g4AvszcF5R)
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/semasuka/credit-card-approval-prediction-classification/main/cc_approval_pred.py)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/AyoyimikaAjibade/credit-card-approval-prediction/main/credit_card_approval_engine.py)
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
 Badge [source](https://shields.io/)
@@ -17,7 +17,7 @@ Badge [source](https://shields.io/)
 
 ## Authors
 
-- [@semasuka](https://www.github.com/semasuka)
+- [@Ayoyimika](https://www.github.com/AyoyimikaAjibade)
 
 ## Table of Contents
 
@@ -125,13 +125,13 @@ git init
 Clone the project
 
 ```bash
-git clone https://github.com/semasuka/Credit-card-approval-prediction-classification.git
+git clone https://github.com/AyoyimikaAjibade/credit-card-approval-prediction.git
 ```
 
 enter the project directory
 
 ```bash
-cd Credit-card-approval-prediction-classification
+cd credit-card-approval-prediction
 ```
 
 Create a conda virtual environment and install all the packages from the environment.yml (recommended)
@@ -161,7 +161,7 @@ If you are having issue with streamlit, please follow [this tutorial on how to s
 
 ## Explore the notebook
 
-To explore the notebook file [here](https://nbviewer.org/github/semasuka/Credit-card-approval-prediction-classification/blob/main/Credit_card_approval_prediction.ipynb)
+To explore the notebook file [here](https://nbviewer.org/github/AyoyimikaAjibade/credit-card-approval-prediction/blob/main/credit_card_approval_engine.ipynb)
 
 ## Deployment on streamlit
 
@@ -228,9 +228,9 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 ## Blog post
 
-The accompanying blog post for this project can be found [here](https://semasuka.github.io/blog/2022/10/12/credit-card-approval-prediction.html)
+Coming soon
 
-## Project featuring
+## Project Clone featuring
 
 This project was featured on [Luke Barousse Youtube Channel](https://www.youtube.com/c/LukeBarousse), Click on the thumbnail to watch the video
 
@@ -241,7 +241,7 @@ This project was featured on [Luke Barousse Youtube Channel](https://www.youtube
 
 MIT License
 
-Copyright (c) 2022 Stern Semasuka
+Copyright (c) 2024 Ayoyimika Ajibade
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
