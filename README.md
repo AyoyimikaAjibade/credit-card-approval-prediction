@@ -15,7 +15,7 @@ Badge [source](https://shields.io/)
 # Key findings: People with the highest income, and who have at least one partner, are more likely to be approved for a credit card.
 
 
-## Authors
+## Author
 
 - [@Ayoyimika](https://www.github.com/AyoyimikaAjibade)
 
@@ -230,11 +230,13 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 Coming soon
 
-## Project Clone featuring
+## Acknowledgments
 
-This project was featured on [Luke Barousse Youtube Channel](https://www.youtube.com/c/LukeBarousse), Click on the thumbnail to watch the video
+* [@semasuka](https://www.github.com/semasuka)
+* []()
+* []()
 
-[![IMAGE_ALT](https://img.youtube.com/vi/5Q0gB7imNOo/0.jpg)](https://www.youtube.com/watch?v=5Q0gB7imNOo&t=222s)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## License
@@ -262,3 +264,5 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 Learn more about [MIT](https://choosealicense.com/licenses/mit/) license
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
