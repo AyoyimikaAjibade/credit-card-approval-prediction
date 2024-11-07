@@ -1,4 +1,4 @@
-![banner](assets/credit-card-application.png)
+![banner](assets/credit-card-credit-card-application-banner.png)
 
 
 ![Python version](https://img.shields.io/badge/Python%20version-3.12%2B-lightgrey)
@@ -7,7 +7,7 @@
 ![Type of ML](https://img.shields.io/badge/Type%20of%20ML-Binary%20Classification-red)
 ![License](https://img.shields.io/badge/License-MIT-green)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1CfV6yEsHBjFiJbTKwY72k2g4AvszcF5R)
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/AyoyimikaAjibade/credit-card-approval-prediction/main/credit_card_approval_engine.py)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/AyoyimikaAjibade/credit-card-approval-prediction/main/cc_approval_prediction.py)
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
 Badge [source](https://shields.io/)
@@ -68,11 +68,11 @@ Correlation between the features.
 
 ![heatmap](assets/heatmap.png)
 
-Confusion matrix of gradient boosting classifier.
+Confusion matrix of Xgboost boosting classifier.
 
 ![Confusion matrix](assets/confusion_matrix.png)
 
-ROC curve of gradient boosting classifier.
+ROC curve of Xgboost classifier.
 
 ![ROC curve](assets/roc.png)
 
@@ -81,12 +81,12 @@ Top 3 models (with default parameters)
 | Model     	                | Recall score 	|
 |-------------------	        |------------------	|
 | Support vector machine     	| 88% 	            |
-| Gradient boosting    	        | 90% 	            |
-| Adaboost               	    | 79% 	            |
+| Xgboost classifier   	        | 99% 	            |
+| Gradient boosting           |90% 	              |
 
 
 
-- **The final model used for this project: Gradient boosting**
+- **The final model used for this project: Xgboost Classifier**
 - **Metrics used: Recall**
 - **Why choose recall as metrics**:
   Since the objective of this problem is to minimize the risk of a credit default, the metrics to use depends on the current economic situation:
@@ -189,9 +189,10 @@ Video to gif [tool](https://ezgif.com/)
 │   ├── confusion_matrix.png                      <- confusion matrix image used in the README.
 │   ├── gif_streamlit.gif                         <- gif file used in the README.
 │   ├── heatmap.png                               <- heatmap image used in the README.
-│   ├── Credit_card_approval_banner.png           <- banner image used in the README.
+│   ├── credit-card-application-banner.png        <- banner image used in the README.
 │   ├── environment.yml                           <- list of all the dependencies with their versions(for conda environment).
 │   ├── roc.png                                   <- ROC image used in the README.
+│   ├── Roc_curve.svg                             <- ROC illustration used in the notebook to explain recall metrics.
 │
 ├── datasets
 │   ├── application_record.csv                    <- the dataset with profile information (without the target variable).
@@ -207,13 +208,13 @@ Video to gif [tool](https://ezgif.com/)
 ├── .gitignore                                    <- used to ignore certain folder and files that won't be commit to git.
 │
 │
-├── Credit_card_approval_prediction.ipynb         <- main python notebook where all the analysis and modeling are done.
+├── credit_card_approval_engine.ipynb         <- main python notebook where all the analysis and modeling are done.
 │
 │
 ├── LICENSE                                       <- license file.
 │
 │
-├── cc_approval_pred.py                           <- file with the model and streamlit component for rendering the interface.
+├── cc_approval_prediction.py                           <- file with the model and streamlit component for rendering the interface.
 │
 │
 ├── README.md                                     <- this readme file.
