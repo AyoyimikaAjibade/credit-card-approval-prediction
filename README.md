@@ -1,5 +1,4 @@
-![banner](assets/credit-card-credit-card-application-banner.png)
-
+![banner](assets/credit-card-application-banner.png)
 
 ![Python version](https://img.shields.io/badge/Python%20version-3.12%2B-lightgrey)
 ![GitHub last commit](https://img.shields.io/github/last-commit/AyoyimikaAjibade/credit-card-approval-prediction)
